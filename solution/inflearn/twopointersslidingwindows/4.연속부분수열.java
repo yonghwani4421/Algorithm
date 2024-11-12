@@ -26,7 +26,6 @@ import java.util.StringTokenizer;
  * 수열의 원소값은 1,000을 넘지 않는 자연수이다.
  *
  *
- * 출력
  */
 
 // runtime over
