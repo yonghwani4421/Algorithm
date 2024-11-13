@@ -33,11 +33,11 @@ public class Main {
 
         int K = Integer.parseInt(bf.readLine());
 
-        int n = 500000;
-        int[] arr = new int[500001];
+        int n = 8000000;
+        long[] arr = new long[8000001];
 
-        for (int i = 2; i <= n; i++) {
-            arr[i] = i;
+        for (long i = 2; i <= n; i++) {
+            arr[(int) i] = i;
         }
 
         for (int i = 2; i <= n; i++) {
@@ -62,13 +62,5 @@ public class Main {
 
     }
 
-    private static boolean isPrime(int num) {
-        if (num < 2)
-            return false;
-        for (int i = 2; i < num; i++) {
-            if (num % i == 0) return false;
-        }
-        return true;
-    }
 
 }
