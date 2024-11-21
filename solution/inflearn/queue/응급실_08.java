@@ -50,11 +50,6 @@ public class 응급실_08 {
                 break;
             }
         }
-
         System.out.println(cnt);
-
-
-
-
     }
 }
