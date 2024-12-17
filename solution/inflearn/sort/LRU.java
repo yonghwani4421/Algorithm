@@ -13,6 +13,7 @@ public class LRU {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
 
+
         StringTokenizer st = new StringTokenizer(bf.readLine());
 
         int S = Integer.parseInt(st.nextToken());
