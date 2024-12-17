@@ -23,8 +23,6 @@ public class 선택정렬 {
         }
 
         // 선택정렬
-        int temp = 0;
-
         for (int i = 0; i < N-1; i++) {
             int idx = i;
             for (int j = i+1; j < N; j++) {
@@ -33,7 +31,7 @@ public class 선택정렬 {
                 }
             }
 
-            temp = arr[i];
+            int temp = arr[i];
             arr[i] = arr[idx];
             arr[idx] = temp;
 
